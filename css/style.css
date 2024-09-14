@@ -727,7 +727,7 @@ img.icon_5 {
 
 .dolor_text {
     font-size: 26px;
-    color: #2c2b2b;
+    color: #ffffff;
     font-weight: bold;
     padding-top: 35px;
 }
@@ -809,7 +809,9 @@ img.icon_5 {
     float: left;
     margin-top: 50px;
 }
-
+.customer_img{
+    width: 80%;
+}
 .box_main {
     width: 100%;
     float: left;

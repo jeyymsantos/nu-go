@@ -29,47 +29,7 @@
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
    </head>
    <body>
-      <div class="header_section">
-         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand"href="index.html"><img src="images/logo.png"></a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto">
-                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="apps.html">Apps</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="feature.html">Feature</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="client.html">Client</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                     </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                     <div class="search_bt">
-                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                     </div>
-                  </form>
-               </div>
-            </nav>
-         </div>
-      </div>
-      <!-- header section end -->
+   <?php include 'nugo_components/navBar-sub.php' ?>
       <!-- apps section start -->
       <div class="apps_section layout_padding">
          <div class="container">
@@ -79,8 +39,8 @@
                </div>
                <div class="col-md-6">
                   <div class="apps_taital_main">
-                     <h1 class="apps_taital">Best Mobile Tracking App</h1>
-                     <p class="apps_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                     <h1 class="apps_taital">Recognized Mobile Application</h1>
+                     <p class="apps_text">The app provides user-friendly tools accessible right from your smartphone. Whether you are organizing a seminar, concert, or sports tournament, NU GO! makes coordinating a breeze. NU GO! fosters greater student engagement by removing hassles from the event management process. It helps create an enriching, vibrant campus life at NU Baliwag.</p>
                      <div class="btn_main">
                         <div class="started_bt"><a href="#">Read More</a></div>
                         <div class="buy_bt active"><a href="#">Download</a></div>
@@ -91,75 +51,7 @@
          </div>
       </div>
       <!-- apps section end -->
-      <!-- footer section start -->
-      <div class="footer_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="footer_logo"><img src="images/logo.png"></div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-lg-3 col-sm-6">
-                  <h3 class="useful_text">About</h3>
-                  <p class="footer_text">using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors</p>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <h3 class="useful_text">Apps</h3>
-                  <div class="footer_menu">
-                     <ul>
-                        <li><a href="#">Liodeno</a></li>
-                        <li><a href="#">Jokri</a></li>
-                        <li><a href="#">Begana</a></li>
-                        <li><a href="#">Sell</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <h1 class="useful_text">Contact us</h1>
-                  <div class="location_text">
-                     <ul>
-                        <li>
-                           <a href="#">
-                           <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">+01 1234567890</span>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#">
-                           <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">demo@gmail.com</span>
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="footer_social_icon">
-                     <ul>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <h1 class="useful_text">Newsletter</h1>
-                  <div class="form-group">
-                     <textarea class="update_mail" placeholder="Your Email" rows="5" id="comment" name="Your Email"></textarea>
-                     <div class="subscribe_bt"><a href="#"><img src="images/teligram-icon.png"></a></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- footer section end -->
-      <!-- copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a></p>
-         </div>
-      </div>
-      <!-- copyright section end -->
+      <?php include 'nugo_components/footer.php' ?>
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>

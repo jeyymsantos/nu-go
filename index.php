@@ -29,45 +29,7 @@
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
    </head>
    <body>
-      <div class="header_section">
-         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand"href="index.html"><img src="images/logo.png"></a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto">
-                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="apps.html">Apps</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="feature.html">Feature</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="client.html">Client</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                     </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                     <div class="search_bt">
-                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                     </div>
-                  </form>
-               </div>
-            </nav>
-         </div>
+       <?php include 'nugo_components/navBar.php'; ?>
          <!-- banner section start --> 
          <div class="banner_section layout_padding">
             <div class="container-fluid">
@@ -130,36 +92,25 @@
          <div class="container">
             <div class="row">
                <div class="col-md-6">
-                  <h1 class="about_taital">About App</h1>
-                  <p class=" about_text">NU GO! is a revolutionary mobile application designed to streamline event management and administrative processes for registered student councils and organizations, and staff at National University Baliwag.</p>
-                  <div class="readmore_btn"><a href="#">Read More</a></div>
+                  <h1 class="about_taital">In Partnership with</h1>
+                  <p class=" about_text">Our app is proudly developed in partnership with NU Baliwag and the Student Development and Activities Office, working together to enhance student engagement and event management.</p>
+                  <div class="readmore_btn"><a href="https://play.google.com/store/apps/details?id=com.mycompany.nugoapplication" target="_blank">Download</a></div>
                </div>
                <div class="col-md-6">
                   <h1 class="about_taital_box">
                      <div class="about_box">
                         <div class="about_box_left">
                            <div><img src="images/icon-1.png"></div>
-                           <h5 class="android_text">Ios</h5>
-                           <h5 class="ios_text">102k</h5>
+                           <h6 class="android_text"> Student Development </h6>
+                           <h6 class="ios_text"> & Activities Office </h6>
                         </div>
                         <div class="about_box_right">
                            <div><img src="images/icon-2.png"></div>
-                           <h5 class="android_text">Android</h5>
-                           <h5 class="ios_text">100k</h5>
+                           <h5 class="android_text">Natioal University</h5>
+                           <h5 class="ios_text">Baliwag</h5>
                         </div>
                      </div>
-                     <div class="about_box_2">
-                        <div class="about_box_left">
-                           <div><img src="images/icon-3.png"></div>
-                           <h5 class="android_text">Download</h5>
-                           <h5 class="ios_text">202k</h5>
-                        </div>
-                        <div class="about_box_right">
-                           <div><img src="images/icon-2.png"></div>
-                           <h5 class="android_text">Android</h5>
-                           <h5 class="ios_text">100k</h5>
-                        </div>
-                     </div>
+
                   </h1>
                </div>
             </div>
@@ -175,8 +126,8 @@
                </div>
                <div class="col-md-6">
                   <div class="apps_taital_main">
-                     <h1 class="apps_taital">Best Mobile Tracking App</h1>
-                     <p class="apps_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                     <h1 class="apps_taital">Recognized Mobile Application</h1>
+                     <p class="apps_text">The app provides user-friendly tools accessible right from your smartphone. Whether you are organizing a seminar, concert, or sports tournament, NU GO! makes coordinating a breeze. NU GO! fosters greater student engagement by removing hassles from the event management process. It helps create an enriching, vibrant campus life at NU Baliwag.</p>
                      <div class="btn_main">
                         <div class="started_bt"><a href="#">Read More</a></div>
                         <div class="buy_bt active"><a href="#">Download</a></div>
@@ -192,33 +143,38 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <h1 class="feature_taital">AWSOME FEATURES</h1>
-                  <p class="feature_text">Readable content of a page when looking at its layout. The point of </p>
+                  <h1 class="feature_taital">NU Go MOBILE FEATURES</h1>
+                  <p class="feature_text">Experience the power of our app with user-friendly design and awesome  <br> features that make every task a breeze!</p>
                </div>
             </div>
             <div class="feature_section_2">
                <div class="row">
                   <div class="col-md-3">
-                     <div class="unlimited_text"><span><img src="images/icon-4.png" class="icon_4"></span>Unlimited <br>Features</div>
-                     <div class="unlimited_text"><span><img src="images/icon-5.png" class="icon_4"></span>High Resolution</div>
+                     <div class="unlimited_text"><span><img src="images/icon-4.png" class="icon_4"></span>User <br>Friendly</div>
+                     <div class="unlimited_text"><span><img src="images/icon-5.png" class="icon_4"></span>Secured</div>
                      <div class="unlimited_text"><span><img src="images/icon-6.png" class="icon_4"></span>Modern Design</div>
                   </div>
                   <div class="col-md-6">
                      <div class="feature_img"><img src="images/feature-img.png"></div>
                   </div>
                   <div class="col-md-3">
-                     <div class="unlimited_text_1">Unique Design<span><img src="images/icon-7.png" class="icon_5"></span></div>
+                     <div class="unlimited_text_1">Fast and <br> Robust<span><img src="images/icon-7.png" class="icon_5"></span></div>
                      <div class="unlimited_text_1">Clean Code<span><img src="images/icon-8.png" class="icon_5"></span></div>
-                     <div class="unlimited_text_1">Easy Use<span><img src="images/icon-9.png" class="icon_5"></span></div>
+                     <div class="unlimited_text_1">Accessible<span><img src="images/icon-9.png" class="icon_5"></span></div>
                   </div>
                </div>
-               <div class="readmore_bt1"><a href="#">Read More</a></div>
+              
             </div>
          </div>
       </div>
       <!-- feature section end -->
+      
+      
+      
+      
+      
       <!-- pricing section start -->
-      <div class="pricing_section layout_padding">
+      <!-- <div class="pricing_section layout_padding">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
@@ -267,8 +223,13 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- pricing section end -->
+
+
+
+
+
       <!-- testimonial section start -->
       <div class="customer_section layout_padding">
          <div class="container">
@@ -288,11 +249,11 @@
                               <div class="box_main">
                                  <div class="customer_main">
                                     <div class="customer_left">
-                                       <div class="customer_img"><img src="images/customer-img.png"></div>
+                                       <div class="customer_img"><img src="images/customer-img.png" style="border-radius: 100%;"></div>
                                     </div>
                                     <div class="customer_right">
-                                       <h3 class="customer_name">DenoMark <span class="quick_icon"><img src="images/quick-icon.png"></span></h3>
-                                       <p class="enim_text">anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internetanything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                                       <h3 class="customer_name">Brenley <span class="quick_icon"><img src="images/quick-icon.png"></span></h3>
+                                       <p class="enim_text">NU GO! has completely transformed how we organize events on campus. The app is so intuitive and makes the whole process, from submitting proposals to gathering feedback, incredibly smooth. I love the calendar sync feature—it keeps us on track without any hassle. Definitely a game-changer for student leaders! </p>
                                     </div>
                                  </div>
                               </div>
@@ -309,11 +270,11 @@
                               <div class="box_main">
                                  <div class="customer_main">
                                     <div class="customer_left">
-                                       <div class="customer_img"><img src="images/customer-img.png"></div>
+                                       <div class="customer_img"><img src="images/customer-img.png" style="border-radius: 100%;"></div>
                                     </div>
                                     <div class="customer_right">
-                                       <h3 class="customer_name">DenoMark <span class="quick_icon"><img src="images/quick-icon.png"></span></h3>
-                                       <p class="enim_text">anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internetanything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                                       <h3 class="customer_name">Brenley <span class="quick_icon"><img src="images/quick-icon.png"></span></h3>
+                                       <p class="enim_text">NU GO! has completely transformed how we organize events on campus. The app is so intuitive and makes the whole process, from submitting proposals to gathering feedback, incredibly smooth. I love the calendar sync feature—it keeps us on track without any hassle. Definitely a game-changer for student leaders! </p>
                                     </div>
                                  </div>
                               </div>
@@ -330,11 +291,11 @@
                               <div class="box_main">
                                  <div class="customer_main">
                                     <div class="customer_left">
-                                       <div class="customer_img"><img src="images/customer-img.png"></div>
+                                       <div class="customer_img"><img src="images/customer-img.png" style="border-radius: 100%; "></div>
                                     </div>
                                     <div class="customer_right">
-                                       <h3 class="customer_name">DenoMark <span class="quick_icon"><img src="images/quick-icon.png"></span></h3>
-                                       <p class="enim_text">anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internetanything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                                       <h3 class="customer_name">Brenley <span class="quick_icon"><img src="images/quick-icon.png"></span></h3>
+                                       <p class="enim_text">NU GO! has completely transformed how we organize events on campus. The app is so intuitive and makes the whole process, from submitting proposals to gathering feedback, incredibly smooth. I love the calendar sync feature—it keeps us on track without any hassle. Definitely a game-changer for student leaders! </p>
                                     </div>
                                  </div>
                               </div>
@@ -354,90 +315,26 @@
       </div>
       <!-- testimonial section end -->
       <!-- download section start -->
-      <div class="download_section layout_padding">
+      <div class="download_section layout_padding" id="downloadNU">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
                   <h1 class="download_taital">DOWNLOAD OUR LATESTAPP</h1>
                   <div class="apps_main">
-                     <div class="google_img"><img src="images/google-icon.png"></div>
+                     <div class="google_img"><a href="https://play.google.com/store/apps/details?id=com.mycompany.nugoapplication" target="_blank"><img src="images/google-icon.png"></a></div>
                      <div class="google_img"><img src="images/store-icon.png"></div>
                   </div>
-                  <div class="download_bt"><a href="#">Download</a></div>
+                
                </div>
             </div>
          </div>
       </div>
       <!-- download section end -->
-      <!-- footer section start -->
-      <div class="footer_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="footer_logo"><img src="images/logo.png"></div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-lg-3 col-sm-6">
-                  <h3 class="useful_text">About</h3>
-                  <p class="footer_text">using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors</p>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <h3 class="useful_text">Apps</h3>
-                  <div class="footer_menu">
-                     <ul>
-                        <li><a href="#">Liodeno</a></li>
-                        <li><a href="#">Jokri</a></li>
-                        <li><a href="#">Begana</a></li>
-                        <li><a href="#">Sell</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <h1 class="useful_text">Contact us</h1>
-                  <div class="location_text">
-                     <ul>
-                        <li>
-                           <a href="#">
-                           <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">+01 1234567890</span>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#">
-                           <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">demo@gmail.com</span>
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="footer_social_icon">
-                     <ul>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <h1 class="useful_text">Newsletter</h1>
-                  <div class="form-group">
-                     <textarea class="update_mail" placeholder="Your Email" rows="5" id="comment" name="Your Email"></textarea>
-                     <div class="subscribe_bt"><a href="#"><img src="images/teligram-icon.png"></a></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- footer section end -->
-      <!-- copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a></p>
-         </div>
-      </div>
-      <!-- copyright section end -->
+
+
+      <?php include 'nugo_components/footer.php' ?>
+     
+    
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
