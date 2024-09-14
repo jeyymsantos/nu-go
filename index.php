@@ -106,7 +106,7 @@
                         </div>
                         <div class="about_box_right">
                            <div><img src="images/icon-2.png"></div>
-                           <h5 class="android_text">Natioal University</h5>
+                           <h5 class="android_text">National University</h5>
                            <h5 class="ios_text">Baliwag</h5>
                         </div>
                      </div>
